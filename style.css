@@ -1,0 +1,138 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    text-align: center;
+
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position:fixed;
+    top: 0;
+    margin-bottom: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+nav {
+    display: inline-block;
+    width: 98.4%;
+    height: 69px;
+    padding: 10px 10px;
+    margin: 0 0;
+}
+
+.logo {
+    float: left;
+    height: 50px;
+}
+
+
+.navigation  {
+ float: right;  
+}
+
+
+
+.navigation a li {
+    text-decoration: underline;
+    display: inline-block;
+    color: white;
+    padding: 0 20px;
+}
+#mission {
+    position: relative;
+    top: 68px;
+    margin-top: 0;
+}
+#mission-background {
+    background-image: url('./assets/images/img-mission-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto 150px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mission-background div {
+    width: 1200px;
+    background: black;
+}
+
+
+.featuredContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+figure {
+    margin: 0 0;
+}
+
+figcaption {
+    margin-bottom: 10px;
+}
+
+.teaimage {
+    max-width: 300px;
+    max-height: 200px;
+    margin: 10px 10px;
+}
+
+#locations {
+    margin-top: 60px;
+}
+
+.locationsbackground {
+    background-image: url('./assets/images/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.locationsContainer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationstext{
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    opacity: 1;
+
+}
+
+p {
+    line-height: 2.5;
+}
+
+address {
+    height: 200px;
+    width: auto;
+    line-height: 2;
+}
+
+footer {
+    float: left;
+    margin-left: 20px;
+}
